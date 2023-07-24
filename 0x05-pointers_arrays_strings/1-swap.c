@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int _ take in two variable integers and swaps them
+ * swap_int - take in two variable integers and swaps thme
  * @author Tiwa
  * @a: swaps and stores address of b
  * @b: swaps and stores address of a
