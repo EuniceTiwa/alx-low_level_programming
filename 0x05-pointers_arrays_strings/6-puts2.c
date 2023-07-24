@@ -8,16 +8,21 @@
  */
 void puts2(char *str)
 {
-	int z = 0;
-
-	while (str[Z] != '\0')
+	int longi = 0;
+	int t = 0;
+	char *y = str;
+	while (*y != '\0)
 	{
-		if (z % 2 == 0)
-		{
-		_putchar(str[z]);
-		}
-		z++;
+		y++;
+		longi++;
+	}
+	t = longi - 1;
+	for (o = 0 ; 0 <= t ; o++)
+	{
+		if (o % 2 == 0)
+	{
+		_putchar(str[o]);
+	}
 	}
 	_putchar('\n');
-
-}
+}	
