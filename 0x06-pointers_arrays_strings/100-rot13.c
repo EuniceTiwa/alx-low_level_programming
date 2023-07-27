@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * rot13 - encoder rot13
@@ -26,4 +26,3 @@ char *rot13(char *s)
 	}
 	return (s);
 }
-
